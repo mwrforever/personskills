@@ -1,0 +1,23 @@
+{
+  "name": "personskills",
+  "owner": {
+    "name": "mwrforever",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills for developer productivity",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "personskills",
+      "description": "Personal skills for developer growth analysis and problem knowledge capture",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/problem-knowledge-capture",
+        "./skills/developer-growth-analysis"
+      ]
+    }
+  ]
+}

@@ -33,7 +33,7 @@ When you encounter:
 4. **Confirm**: Ask user if problem is solved and if they want to create a skill.
 
 5. **Create/Update Skill** (if user confirms):
-   
+
    - Use `superpowers:writing-skills` skill
    - Dispatch subagent with **only the most recent matter file** (or user-specified one)
    - Reference = refined extract from matter (concise, searchable)
