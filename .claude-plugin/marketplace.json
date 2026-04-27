@@ -16,7 +16,8 @@
       "strict": false,
       "skills": [
         "./skills/problem-knowledge-capture",
-        "./skills/developer-growth-analysis"
+        "./skills/developer-growth-analysis",
+        "./skills/my-code-simplify"
       ]
     }
   ]
