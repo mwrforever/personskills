@@ -17,7 +17,13 @@
       "skills": [
         "./skills/problem-knowledge-capture",
         "./skills/developer-growth-analysis",
-        "./skills/my-code-simplify"
+        "./skills/my-code-simplify",
+        "./skills/best-sqlalchemy-practise",
+        "./skills/celery-best-practise",
+        "./skills/ddl-architect",
+        "./skills/high-concurrency-cache-design",
+        "./skills/high-concurrency-idempotency-design",
+        "./skills/mybatis-plus-best-practise"
       ]
     }
   ]
