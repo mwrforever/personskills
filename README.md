@@ -28,6 +28,9 @@ Idempotency and concurrency control for distributed systems. Covers deduplicatio
 ### MyBatis-Plus Best Practise
 MyBatis-Plus 3.5.4+ chain API and XML mapping best practices. Lambda chain API for single-table CRUD, XML for complex multi-table operations.
 
+### Post Task Checklist Verifier
+用于在任务清单完成后验证当前分支代码变更是否完整落地，按功能清单任务项协调子 agent 并行端到端检查实现正确性、明显业务 bug、实现级优化问题和测试缺口。
+
 ## Installation
 
 In Claude Code, install this plugin:

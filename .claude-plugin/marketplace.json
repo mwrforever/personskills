@@ -23,7 +23,8 @@
         "./skills/ddl-architect",
         "./skills/high-concurrency-cache-design",
         "./skills/high-concurrency-idempotency-design",
-        "./skills/mybatis-plus-best-practise"
+        "./skills/mybatis-plus-best-practise",
+        "./skills/post-task-checklist-verifier"
       ]
     }
   ]
