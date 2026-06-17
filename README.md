@@ -31,6 +31,9 @@ MyBatis-Plus 3.5.4+ chain API and XML mapping best practices. Lambda chain API f
 ### Post Task Checklist Verifier
 用于在任务清单完成后验证当前分支代码变更是否完整落地，按功能清单任务项协调子 agent 并行端到端检查实现正确性、明显业务 bug、实现级优化问题和测试缺口。
 
+### Code Analyse Spec
+代码仓库问题分析与解决方案规格化技能。默认扫描当前分支 diff，按 bug/性能/设计三维度并行派发子 agent 发现问题；与用户逐项沟通原因、风险与是否处理；为每个问题给出 2-3 种方案并标注最推荐；落盘到 `docs/analyse/{yyyy-mm-dd}-{≤10字简要描述}.md`；用子 agent 按问题项端到端自检，用户审批通过后调用 `superpowers:using-superpowers` 衔接实现。
+
 ## Installation
 
 In Claude Code, install this plugin:

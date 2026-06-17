@@ -24,7 +24,8 @@
         "./skills/high-concurrency-cache-design",
         "./skills/high-concurrency-idempotency-design",
         "./skills/mybatis-plus-best-practise",
-        "./skills/post-task-checklist-verifier"
+        "./skills/post-task-checklist-verifier",
+        "./skills/code-analyse-spec"
       ]
     }
   ]
