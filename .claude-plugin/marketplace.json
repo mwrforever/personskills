@@ -25,7 +25,8 @@
         "./skills/high-concurrency-idempotency-design",
         "./skills/mybatis-plus-best-practise",
         "./skills/post-task-checklist-verifier",
-        "./skills/code-analyse-spec"
+        "./skills/code-analyse-spec",
+        "./skills/git-merge-conflict-spec"
       ]
     }
   ]
