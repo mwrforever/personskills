@@ -1,6 +1,6 @@
 ---
 name: git-merge-conflict-spec
-description: Git 合并冲突协商与规格化技能。触发关键词："git 合并冲突"、"git merge 冲突"、"合并冲突"、"解决冲突"、"处理冲突"、"merge conflict"、"rebase 冲突"、"cherry-pick 冲突"、"pull 冲突"、"revert 冲突"、"stash pop 冲突"、"<<<<<<< HEAD"、"分支合并出错"、"merge 出错了"、"rebase 卡住了"、"两边都改了同一段代码怎么办"、"保留哪一份"、"协商代码合并"。覆盖 merge / rebase / cherry-pick / pull --rebase / revert / stash pop 全部冲突场景；支持两种入口：用户自己已触发 git 操作处于冲突态、或由 skill 主导发起合并。强制三方对比（base / ours / theirs）呈现；每个冲突 hunk 派子 agent 做深度业务影响分析（含调用链 grep 验证）；用户必须逐项明确选择保留哪一份（ours / theirs / 全保留 / 自定义 / 延后），未决项强制回看清空；所有决定先写入规格文档，路径固定为 docs/git/merge/{yyyy-mm-dd}-{op}-{源}-{into|onto|on}-{目标}[-N].md；落盘后按"冲突文件"维度派子 agent 自检并修订，主 agent 再做跨文件横向兜底；用户审批通过后调用 superpowers:writing-plans 进入实现流程。审批前严禁修改任何工作区文件或执行 git add / commit / abort / reset / checkout --theirs|--ours 等改变仓库状态的命令。
+description: 处理 git 合并冲突的协商与规格化技能。覆盖 merge/rebase/cherry-pick/pull/revert/stash pop 冲突，逐项协商 ours/theirs/全保留/自定义，产出规格文档后衔接实现。触发词：合并冲突、解决冲突、merge conflict、rebase 冲突、<<<<<<< HEAD、保留哪一份。
 ---
 
 # Git Merge Conflict Spec
